@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Nicholas Schuster">
+    <meta name="description" content="Viewport Activity">
+    <meta name="keywords" content="responsive, css, media queries">
+    <meta name="robots" content="index,follow">
+    <title>Viewport Activity</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link href="https://res.cloudinary.com/dr6lvwubh/raw/upload/v1581441981/Anicons/anicons-regular.css" rel="stylesheet">
+    <link rel="stylesheet" href="Schuster.styles.css">
+</head>
+<body>
+    <header>
+        <h1>Title Heading</h1><span class="icon" aria-hidden="true">O</span>
+        <p>Let's practice media queries, supports queries, viewport, and breakpoints in responsive CSS.</p>
+    </header>
+    <main>
+        <section id="one">
+            <span class="icon" aria-hidden="true">M</span><h2>Heading 2 - Section One</h2>
+            <picture>
+                <source media="(min-width: 1380px)" srcset="https://via.placeholder.com/300x300.png">
+                <source media="(max-width: 1380px) and (min-width: 620px)" srcset="https://via.placeholder.com/200x200.png">
+                <source media="(max-width: 620px)" srcset="https://via.placeholder.com/500x150.png">
+                <img src="https://via.placeholder.com/150x150.png" alt="placeholder">
+            </picture>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+        </section>
+        <section id="two">
+            <span class="icon" aria-hidden="true">M</span><h2>Heading 2 - Section Two</h2>
+            <picture>
+                <source media="(min-width: 1380px)" srcset="https://via.placeholder.com/300x300.png">
+                <source media="(max-width: 1380px) and (min-width: 620px)" srcset="https://via.placeholder.com/200x200.png">
+                <source media="(max-width: 620px)" srcset="https://via.placeholder.com/500x150.png">
+                <img src="https://via.placeholder.com/150x150.png" alt="placeholder">
+            </picture>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+        </section>
+        <section id="three">
+            <span class="icon" aria-hidden="true">M</span><h2>Heading 2 - Section Three</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+        </section>
+    </main>
+    <footer>
+        <span class="icon" aria-hidden="true">T</span><small>Copyright 2024 - Nicholas Schuster</small>
+    </footer>
+</body>
+</html>
